@@ -73,7 +73,8 @@
 - `monkeypatch`;
 - `capsys`;
 - `requirements.txt`;
-- README с инструкциями запуска и тестирования.
+- README с инструкциями запуска и тестирования;
+- GitHub Actions для автоматического запуска тестов.
 
 ### Python Guess Number CLI
 
