@@ -16,6 +16,8 @@
 - временные файлы в тестах через `tmp_path`;
 - тестирование сохранения и загрузки JSON;
 - GitHub Actions / CI;
+- HTTP и базовое API-тестирование;
+- библиотека `requests`;
 - ручное тестирование;
 - тест-кейсы, чеклисты и баг-репорты;
 - Git и GitHub.
@@ -144,6 +146,32 @@
 - тестирование чтения и записи JSON без затрагивания реального файла данных;
 - базовое понимание CI/CD через GitHub Actions.
 
+### Python API Testing Practice
+
+Репозиторий: https://github.com/niatakishiev-max/python-api-testing-practice
+
+Учебный проект для практики HTTP и API-тестирования на Python.
+
+Что реализовано:
+
+- первый API-клиент через `requests`;
+- GET-запрос к публичному API;
+- POST-запрос с JSON body;
+- проверки status code;
+- проверки структуры JSON-ответа;
+- проверка `404 Not Found`;
+- автотесты API через `pytest`;
+- GitHub Actions для автоматического запуска API-тестов.
+
+Что показывает проект:
+
+- понимание request / response;
+- базовые HTTP-методы `GET` и `POST`;
+- работу с JSON API;
+- проверку status code;
+- проверку структуры ответа;
+- базовый уровень API automation.
+
 ## QA Projects
 
 ### QA ToDo CLI Testing
@@ -219,8 +247,8 @@ QA-документация для проекта `python-sales-report-cli`.
 - добавить GitHub Actions в остальные проекты с тестами;
 - добавить автотесты для ToDo CLI;
 - углубить fixtures и тестирование файлов;
-- изучить основы HTTP и API;
-- написать первые API-тесты;
+- углубить HTTP и API;
+- добавить больше API-сценариев: `PUT`, `PATCH`, `DELETE`;
 - изучить SQL на базовом уровне;
 - сделать небольшой Flask/FastAPI проект;
 - добавить тесты API и CI для финального проекта.
