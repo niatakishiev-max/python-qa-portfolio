@@ -160,6 +160,8 @@
 - PUT-запрос для полного обновления ресурса;
 - PATCH-запрос для частичного обновления ресурса;
 - DELETE-запрос для удаления ресурса;
+- фильтрация через query params;
+- проверка headers и `Content-Type`;
 - проверки status code;
 - проверки структуры JSON-ответа;
 - проверка `404 Not Found`;
@@ -173,6 +175,8 @@
 - работу с JSON API;
 - проверку status code;
 - проверку структуры ответа;
+- проверку query params;
+- проверку headers и `Content-Type`;
 - базовый уровень API automation.
 
 ## QA Projects
@@ -251,7 +255,7 @@ QA-документация для проекта `python-sales-report-cli`.
 - добавить автотесты для ToDo CLI;
 - углубить fixtures и тестирование файлов;
 - углубить HTTP и API;
-- углубить API-тестирование: headers, query params, negative cases;
+- углубить API-тестирование: negative cases, auth, schema validation;
 - изучить SQL на базовом уровне;
 - сделать небольшой Flask/FastAPI проект;
 - добавить тесты API и CI для финального проекта.
