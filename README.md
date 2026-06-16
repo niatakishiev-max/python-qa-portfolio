@@ -18,6 +18,7 @@
 - GitHub Actions / CI;
 - HTTP и базовое API-тестирование;
 - библиотека `requests`;
+- schema validation через `jsonschema`;
 - ручное тестирование;
 - тест-кейсы, чеклисты и баг-репорты;
 - Git и GitHub.
@@ -164,6 +165,7 @@
 - проверка headers и `Content-Type`;
 - negative cases для неполного JSON body;
 - параметризация API-тестов;
+- schema validation для JSON-ответов;
 - проверки status code;
 - проверки структуры JSON-ответа;
 - проверка `404 Not Found`;
@@ -181,6 +183,7 @@
 - проверку headers и `Content-Type`;
 - параметризацию payload для POST-запросов;
 - фиксацию фактического поведения учебного API;
+- проверку JSON-структуры через `jsonschema`;
 - базовый уровень API automation.
 
 ## QA Projects
@@ -259,7 +262,7 @@ QA-документация для проекта `python-sales-report-cli`.
 - добавить автотесты для ToDo CLI;
 - углубить fixtures и тестирование файлов;
 - углубить HTTP и API;
-- углубить API-тестирование: auth, schema validation, contract testing;
+- углубить API-тестирование: auth, contract testing, test data strategy;
 - изучить SQL на базовом уровне;
 - сделать небольшой Flask/FastAPI проект;
 - добавить тесты API и CI для финального проекта.
